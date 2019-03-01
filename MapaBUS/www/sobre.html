@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MapaBus</title>
+    <!-- materialize css -->
+    <link rel="stylesheet" href="./css/materialize.css"/>
+    <link rel="stylesheet" href="./css/estilo.css"/>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="manifest" href="./manifest.json">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey lighten-2">
+
+    <header>
+        <nav>
+            <div class="nav-wrapper green darken-3">
+              <a href="" class="brand-logo"><i class="material-icons">directions_bus</i> MapaBus</a>
+              <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><i class="material-icons large">directions_bus</i><h1 style="display:inline">MapaBus</h1></li>
+                <li><form>
+                    <div class="input-field">
+                      <input id="search" type="search" required>
+                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                      <i class="material-icons">close</i>
+                    </div>
+                  </form></li>
+                <li><a href="./index.html"><i class="material-icons">home</i>Início</a></li>
+                <li><a href="./mapa.html"><i class="material-icons">map</i>Mapa</a></li>
+                <li><a href="./linhas.html"><i class="material-icons">swap_vert</i>Linhas</a></li>
+                <li><a href=""><i class="material-icons">info_outline</i>Sobre Nós</a></li>
+              </ul>
+              
+            </div>  
+          </nav>
+          
+
+        
+          <ul class="sidenav grey lighten-2" id="mobile-demo">
+              <div class="container"><li><i class="material-icons large">directions_bus</i><h1 style="display:inline">MapaBus</h1></li></div>
+              <li><form>
+                  <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form></li>
+                <li><a href="./index.html"><i class="material-icons">home</i>Início</a></li>
+                <li><a href="./mapa.html"><i class="material-icons">map</i>Mapa</a></li>
+                <li><a href="./linhas.html"><i class="material-icons">swap_vert</i>Linhas</a></li>
+                <li><a href="./sobre.html"><i class="material-icons">info_outline</i>Sobre Nós</a></li>
+          </ul>
+    </header>
+    
+    
+    <main>
+        <div class="container">
+          <div class="row">
+
+            <div class="col s12" style="position:relative;top:40px;text-align:center;background:white;padding:25px;">
+              <h1>Sobre nós</h1>
+              <br>
+              <p>
+                  Trabalho de Conclusão de Curso (TCC) desenvolvido por Ádrian Marcello, Camila SIlva, Jade Passos e Michelle de Oliveira para o curso de Técnico em Informática para Internet no Instituto Federal do Norte de Minas Gerais (IFNMG), turma TII0116.
+              </p>
+              <br/>
+              <p>
+                  O MapaBus foi desenvolvido com o objetivo de identificar por meio da plataforma virtual os pontos e linhas percorridas pelos ônibus da cidade de Janaúba, visando uma maior atenção às pessoas que utilizam esse transporte e tem acessibilidades. Ofertando assim também por meio dessa plataforma um maior conhecimento da população sobre o transporte e como ter esse acesso.
+              </p>
+              <br/>
+              <p>
+                  Sua importância é justificada devido ao auxílio que o MapaBus poderá proporcionar às pessoas na utilização do transporte público de Janaúba. Assim, sua utilidade será essencial para gerar informações e conhecimentos sobre o transporte público mais acessível a todos.
+              </p>
+            
+              
+
+            </div>
+          </div>
+        </div>
+    </main>
+
+
+    
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script src="./js/script.js"></script>
+	<script src="./phonegap.js"></script>
+</body>
+</html>

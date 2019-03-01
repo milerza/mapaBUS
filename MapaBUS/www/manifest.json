@@ -1,0 +1,16 @@
+{
+    "name": "Mapa de ônibus de Janaúba",
+    "short_name": "MapaBUS",
+    "theme_color": "#558b2f",
+    "background_color": "#558b2f",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons":[
+        {
+            "src": "imagens/bus-stop.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

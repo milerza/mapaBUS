@@ -1,0 +1,29 @@
+#menu{
+    z-index:99;
+}
+
+.botao{
+    padding:10px;
+    background:#333834;
+    color:white;
+    position:relative;
+    top:20px;
+    
+
+}
+ .logo{
+    text-align:center;
+    background-color:white;
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+ }
+
+ .icone{
+     display: block;
+     
+ }
+
+ h1{
+     margin: 5px;
+ }

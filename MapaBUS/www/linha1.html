@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MapaBus</title>
+    <!-- materialize css -->
+    <link rel="stylesheet" href="./css/materialize.css"/>
+    <link rel="stylesheet" href="./css/estilo.css"/>
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="manifest" href="./manifest.json">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey lighten-2">
+
+    <header>
+        <nav>
+            <div class="nav-wrapper green darken-3">
+              <a href="" class="brand-logo"><i class="material-icons">directions_bus</i> MapaBus</a>
+              <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><i class="material-icons large">directions_bus</i><h1 style="display:inline">MapaBus</h1></li>
+                <li><form>
+                    <div class="input-field">
+                      <input id="search" type="search" required>
+                      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                      <i class="material-icons">close</i>
+                    </div>
+                  </form></li>
+                <li><a href="./index.html"><i class="material-icons">home</i>Início</a></li>
+                <li><a href="./mapa.html"><i class="material-icons">map</i>Mapa</a></li>
+                <li><a href="./linhas.html"><i class="material-icons">swap_vert</i>Linhas</a></li>
+                <li><a href=""><i class="material-icons">info_outline</i>Sobre Nós</a></li>
+              </ul>
+              
+            </div>  
+          </nav>
+          
+
+        
+          <ul class="sidenav grey lighten-2" id="mobile-demo">
+              <div class="container"><li><i class="material-icons large">directions_bus</i><h1 style="display:inline">MapaBus</h1></li></div>
+              <li><form>
+                  <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                  </div>
+                </form></li>
+                <li><a href="./index.html"><i class="material-icons">home</i>Início</a></li>
+                <li><a href="./mapa.html"><i class="material-icons">map</i>Mapa</a></li>
+                <li><a href="./linhas.html"><i class="material-icons">swap_vert</i>Linhas</a></li>
+                <li><a href="./sobre.html"><i class="material-icons">info_outline</i>Sobre Nós</a></li>
+          </ul>
+    </header>
+    
+    
+    <main>
+        <div class="container">
+          <div class="row">
+              <a href="./linhas.html" class="botao">
+                 Voltar 
+              </a>
+              <a href="./mapa.html" class="botao">
+                  Ver mapa
+               </a>
+            <div class="col s12" style="position:relative;top:40px;text-align:center;background:white">
+
+               
+                <table border="1" cellpadding="0" cellspacing="0">
+                    <col class="col0">
+                    <col class="col1">
+                    <col class="col2">
+                    <col class="col3">
+                    <col class="col4">
+                    <col class="col5">
+                    <col class="col6">
+                    <col class="col7">
+                    <tbody>
+                      <tr class="row0">
+                        <th class="column0 style1 s">Rua</td>
+                        <th class="column1 style1 s">Bairro</td>
+                        <th class="column2 style1 s">Posição</td>
+                        <td class="column3 style1 null"></td>
+                        <td class="column4 style1 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row1">
+                        <td class="column0 style3 s">AV. MESTRE ALFREDO BARBOSA</td>
+                        <td class="column1 style1 s">Padre Eustaquio</td>
+                        <td class="column2 style1 s">NUMERO 237</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row2">
+                        <td class="column0 style5 s"><a href="https://maps.google.com/?q=AV.+MESTRE+ALFREDO+BARBOSA+237%0D+%0D+AV+MESTRE+ALFREDO+BARBOSA&amp;entry=gmail&amp;source=g" title="">AV MESTRE ALFREDO BARBOSA</a></td>
+                        <td class="column1 style1 s">Padre Eustaquio</td>
+                        <td class="column2 style1 s">NUMERO 95</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row3">
+                        <td class="column0 style3 s">RUA BARAO DO RIO BRANCO</td>
+                        <td class="column1 style1 s">Padre Eustaquio</td>
+                        <td class="column2 style1 s">NUMERO 520</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row4">
+                        <td class="column0 style3 s">RUA RIO PARDO</td>
+                        <td class="column1 style1 s">Padre Eustaquio</td>
+                        <td class="column2 style1 s">NUMERO 291</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row5">
+                        <td class="column0 style3 s">RUA OSVALDO CRUZ</td>
+                        <td class="column1 style1 s">Padre Eustaquio</td>
+                        <td class="column2 style3 s">PROXIMO AO NUMERO 1000</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row6">
+                        <td class="column0 style3 s">PRACA DR. ROCKERTE</td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style3 s">EM FRENTE BANCO BRADESCO</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row7">
+                        <td class="column0 style3 s">RUA PIO XII</td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style3 s">AO LADO DA IGREJA CATOLICA</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row8">
+                        <td class="column0 style3 s">RUA AIMORES</td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style3 s">EM FRENTE  DA CASA DOS FOGOES</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row9">
+                        <td class="column0 style5 s"><a href="https://maps.google.com/?q=RUA+CIRILO+BARBOSA+256%0D+%0D+RUA+CIRILO+BARBOSA&amp;entry=gmail&amp;source=g" title="">RUA CIRILO BARBOSA</a></td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style1 s">NUMERO 256</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row10">
+                        <td class="column0 style5 s"><a href="https://maps.google.com/?q=RUA+CIRILO+BARBOSA+256%0D+%0D+RUA+CIRILO+BARBOSA&amp;entry=gmail&amp;source=g" title="">RUA CIRILO BARBOSA</a></td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style1 s">460 ESQUINA COM A MARECHAL DEODORO,</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row11">
+                        <td class="column0 style3 s">AV. EDILSON BRANDAO</td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style3 s">FUNDO DO MERCADO MUNICIPAL</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row12">
+                        <td class="column0 style3 s">RUA SAO PEDRO</td>
+                        <td class="column1 style1 s">Sao Goncalo</td>
+                        <td class="column2 style3 s">AO LADO DO MURO DA HONDA</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row13">
+                        <td class="column0 style3 s">RUA JOAO XXIII</td>
+                        <td class="column1 style1 s">Sao Goncalo</td>
+                        <td class="column2 style3 s">ENFRENTE A ENTRADO DO HOTEL OURO NORTE</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row14">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Centro</td>
+                        <td class="column2 style3 s">EM FRENTE A LOJA EXATA</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style1 null"></td>
+                      </tr>
+                      <tr class="row15">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Esplanda</td>
+                        <td class="column2 style6 s">EM FRENTE O HIPER MERCADO SUPER BOM</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row16">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Sao Goncalo</td>
+                        <td class="column2 style6 s">EM FRENTE MERCABOX</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row17">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Santo Antonio</td>
+                        <td class="column2 style6 s">EM FRENTE AO CEMITERIO DA SAUDADE</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row18">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Santo Antonio</td>
+                        <td class="column2 style6 s">EM FRENTE ESCOLA ROMULO SALES DE AZEVEDO</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row19">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Santo Antonio</td>
+                        <td class="column2 style6 s">EM FRENTE ESTACAO DA CEMIG/ PROXIMO DROGA FARMA</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row20">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Santa Cruz</td>
+                        <td class="column2 style6 s">EM FRENTE VGX</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row21">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Santa Cruz</td>
+                        <td class="column2 style6 s">EM FRENTE PROXIMO A MECANICA MIGUEL</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                      <tr class="row22">
+                        <td class="column0 style3 s">AV. MANOEL ATHAYDE</td>
+                        <td class="column1 style1 s">Santa Cruz</td>
+                        <td class="column2 style6 s">EM FRENTE POSTO JANAUBA DEPOIS DO MERCADO ASA BRANCA</td>
+                        <td class="column3 style4 null"></td>
+                        <td class="column4 style4 null"></td>
+                        <td class="column5 style2 null"></td>
+                        <td class="column6 style2 null"></td>
+                        <td class="column7 style2 null"></td>
+                      </tr>
+                    </tbody>
+                </table>
+            
+              
+
+            </div>
+          </div>
+        </div>
+    </main>
+
+
+    
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/materialize.js"></script>
+    <script src="./js/script.js"></script>
+	<script src="./phonegap.js"></script>
+
+</body>
+</html>
