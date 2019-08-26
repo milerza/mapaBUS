@@ -27,5 +27,3 @@ Michelle de Oliveira Santos
 
 -----------------------------------------------------------
 
-PROJETOS FUTUROS:
-CRIAR A APLICAÇÃO A PARTIR DO PHONEGAP BUILD
